@@ -1,0 +1,61 @@
+body{
+
+    text-align: center;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkcyan;
+}
+.main{
+
+    font-size: 5rem;
+
+}
+.number{
+
+    font-size: 7rem;
+}
+.keys{
+
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+.decrease{
+
+    margin-right: 2rem;
+    border : .1rem solid;
+    border-radius: 2rem;
+    background-color: brown;
+}
+.reset{
+    border : .1rem solid;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    background-color: brown;
+}
+.increase{
+    border : .1rem solid;
+    border-radius: 2rem;
+    background-color: brown;
+}
+.decrease:hover{
+
+    background-color: black;
+    color: darkcyan;
+}
+.reset:hover{
+
+    background-color: black;
+    color: darkcyan;
+}
+.increase:hover{
+
+    background-color: black;
+    color: darkcyan;
+}
+.btn{
+
+    font-size: 2.5rem;
+}
